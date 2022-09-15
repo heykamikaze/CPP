@@ -6,7 +6,7 @@
 #    By: nbenjami <nbenjami@student.21-school.ru>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/12 22:12:19 by nbenjami          #+#    #+#              #
-#    Updated: 2022/09/16 01:13:37 by nbenjami         ###   ########.fr        #
+#    Updated: 2022/09/16 01:53:58 by nbenjami         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,8 +30,7 @@ all: $(NAME)
 
 $(NAME): $(OBJ)
 	$(CC) $(FLAGS) -o $(NAME) $(OBJ)
-	@echo "$(PINK)♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   $(PURPLE)heykamikaze $(PINK)   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ \033[0m"
-	@echo "$(PINK)♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   $(PURPLE)WOW IT WORKS$(PINK)   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ \033[0m"
+	@echo "$(PINK)♥ ♥ ♥ $(PURPLE)as working for the lord, not for human masters $(PINK)♥ ♥ ♥ \033[0m"
 clean:
 	$(RM) $(OBJ)
 
